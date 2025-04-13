@@ -1,1 +1,2 @@
-﻿(đây là trợ lý ảo A.I phục vụ công tác tuyển sinh của Trường Trưng Vương Quảng Trị, do nhóm CLB Lập trình "tvs.ic" thiết kế và đào tạo) 
+﻿(đây là trợ lý ảo A.I phục vụ công tác tuyển sinh của Trường Trưng Vương Quảng Trị
+do nhóm CLB Lập trình "tvs.ic" thiết kế và đào tạo) 
