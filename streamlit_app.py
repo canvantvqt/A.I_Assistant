@@ -9,7 +9,7 @@ def rfile(name_file):
 
 # Hiển thị logo (nếu có)
 try:
-    col1, col2, col3 = st.columns([5, 3, 5])
+    col1, col2, col3 = st.columns([2, 1, 2])
     with col2:
         st.image("logo.png", use_container_width=True)
 except:
