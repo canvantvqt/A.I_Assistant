@@ -9,7 +9,7 @@ def rfile(name_file):
 
 # Hiển thị logo (nếu có)
 try:
-    col1, col2, col3 = st.columns([2, 1, 2])
+    col1, col2, col3 = st.columns([3, 2, 3])
     with col2:
         st.image("logo.png", use_container_width=True)
 except:
@@ -69,7 +69,7 @@ for message in st.session_state.messages:
         st.markdown(f'<div class="user">{message["content"]}</div>', unsafe_allow_html=True)
 
 # Ô nhập liệu cho người dùng
-if prompt := st.chat_input("Bạn quan tâm vấn đề nào về trường Trưng Vương !..."):
+if prompt := st.chat_input("Bạn quan tâm vấn đề nào ở TVS ạ!..."):
     # Lưu tin nhắn người dùng vào session
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.markdown(f'<div class="user">{prompt}</div>', unsafe_allow_html=True)
